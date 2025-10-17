@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        registry: [docker.io, ghcr.io]
+        registry: [ghcr.io]
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
